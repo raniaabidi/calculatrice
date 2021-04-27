@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>calculatrice</title>
+</head>
+<body>
+<center>
+<h2>calculatrice</h2>
+<hr>
+<form action="calculatriceservlet" method="post">
+<table>
+<tr><td>opération 1</td>
+<td><input name="op1" value="" type="text"></td>
+</tr>
+<tr><td>opération 2</td>
+<td><input name="op2" value="" type="text"></td>
+</tr>
+<tr><td>opération : </td>
+<td><input name="operation" value="addition" type="radio">addition</td>
+<td><input name="operation" value="soustraction" type="radio">soustraction</td>
+<td><input name="operation" value="multiplication" type="radio">multiplication</td>
+<td><input name="operation" value="division" type="radio">division</td>
+</tr>
+</table>
+<input name="envoyer" value="envoyer" type="submit">
+<input name="retablir" value="retablir" type="submit">
+</form>
+</center>
+</body>
+</html>
